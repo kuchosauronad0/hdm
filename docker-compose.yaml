@@ -2,7 +2,7 @@
 version: "3.5"
 services:
   hdm:
-    image: ghcr.io/betadots/hdm:main
+    image: ghcr.io/betadots/hdm:main@sha256:c51cfd67fbf3980834c7ee73553178801f9474bf1846839345402d2102f82fd3
     container_name: hdm
     environment:
       - TZ=Europe/Berlin
