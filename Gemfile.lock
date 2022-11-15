@@ -120,7 +120,7 @@ GEM
       i18n (>= 1.8.11, < 2)
     fast_gettext (2.2.0)
     ffi (1.15.5)
-    friendly_id (5.4.2)
+    friendly_id (5.5.0)
       activerecord (>= 4.0.0)
     git (1.11.0)
       rchardet (~> 1.8)
@@ -362,7 +362,7 @@ DEPENDENCIES
   dartsass-rails
   factory_bot_rails
   faker
-  friendly_id (~> 5.4.0)
+  friendly_id (~> 5.5.0)
   git
   gitable
   hiera-eyaml
