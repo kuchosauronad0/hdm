@@ -114,7 +114,7 @@ jobs:
           outputs: type=docker,dest=${{ env.DOCKER_IMAGE_TAR_LOCATION }}
 
       - name: Upload artifact
-        uses: actions/upload-artifact@83fd05a356d7e2593de66fc9913b3002723633cb # tag=v3.1.1
+        uses: actions/upload-artifact@ff15f0306b3f739f7b6fd43fb5d26cd321bd4de5 # v3.2.1
         with:
           name: ${{ env.DOCKER_IMAGE_ARTIFACT_NAME }}
           path: ${{ env.DOCKER_IMAGE_TAR_LOCATION }}
