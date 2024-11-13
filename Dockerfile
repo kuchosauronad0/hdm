@@ -1,4 +1,4 @@
-FROM ruby:3.1.3-alpine@sha256:2b6520b4b99dd3aca29c1ea57c0a3bf406fff4624b5bd712984853989d650f51
+FROM ruby:3.3.6-alpine@sha256:caeab43b356463e63f87af54a03de1ae4687b36da708e6d37025c557ade450f8
 
 RUN apk add --update --no-cache \
       binutils-gold \
